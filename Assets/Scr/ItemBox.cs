@@ -20,6 +20,7 @@ public class ItemBox : MonoBehaviour {
         {
             if (transform.position.x > -deadLine)
              transform.Translate(new Vector3(-1, 0, 0) * boxSpeed);
+
         }
 	
 	}

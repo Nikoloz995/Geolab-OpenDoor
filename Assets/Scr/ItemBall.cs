@@ -16,5 +16,12 @@ public class ItemBall : MonoBehaviour {
         }
     }
 
+    void OnMouseDown()
+    {
+        gameObject.GetComponent<Rigidbody2D>().gravityScale *= -1;
+    }
+
+  
+
    
 }

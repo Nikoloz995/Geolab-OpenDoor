@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour {
 
         if (Timer<=0)
         {
-            int randomBallIndex = Random.Range(0,11);
+            int randomBallIndex = Random.Range(0, Balls.Count);
             Instantiate(Balls[randomBallIndex], new Vector3(Random.Range(-10,10),35,0), Quaternion.identity);
             Timer = 1;
         }
